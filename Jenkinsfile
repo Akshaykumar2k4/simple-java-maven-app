@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Build'){
             steps{
-                bat 'javac-version'
+                bat 'javac -version'
             }
         }
     }
